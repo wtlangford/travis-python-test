@@ -4,4 +4,4 @@ jobs:
   - os: linux
     compiler: gcc
     script:
-    - "python --version"
+    - "python3 --version"
