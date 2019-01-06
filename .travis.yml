@@ -1,0 +1,7 @@
+language: c
+jobs:
+  include:
+  - os: linux
+    compiler: gcc
+    script:
+    - "python --version"
