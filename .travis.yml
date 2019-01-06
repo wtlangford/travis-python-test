@@ -1,7 +1,5 @@
 language: c
-jobs:
-  include:
-  - os: linux
-    compiler: gcc
-    script:
-    - "python3 --version"
+script: "python3 --version"
+os:
+- osx
+- linux
